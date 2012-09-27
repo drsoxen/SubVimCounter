@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		442911341612769400E06BA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442911331612769400E06BA3 /* UIKit.framework */; };
+		442911361612769500E06BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442911351612769400E06BA3 /* Foundation.framework */; };
+		442911381612769500E06BA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442911371612769500E06BA3 /* CoreGraphics.framework */; };
+		4429113E1612769500E06BA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4429113C1612769500E06BA3 /* InfoPlist.strings */; };
+		442911401612769500E06BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4429113F1612769500E06BA3 /* main.m */; };
+		442911441612769500E06BA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 442911431612769500E06BA3 /* AppDelegate.m */; };
+		442911471612769500E06BA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442911461612769500E06BA3 /* ViewController.m */; };
+		4429114A1612769500E06BA3 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442911481612769500E06BA3 /* ViewController_iPhone.xib */; };
+		4429114D1612769500E06BA3 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4429114B1612769500E06BA3 /* ViewController_iPad.xib */; };
+		442911551612770300E06BA3 /* sublime_text_icon_2181.png in Resources */ = {isa = PBXBuildFile; fileRef = 442911531612770300E06BA3 /* sublime_text_icon_2181.png */; };
+		442911561612770300E06BA3 /* r_Vim_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 442911541612770300E06BA3 /* r_Vim_logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4429112F1612769400E06BA3 /* SubVimCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubVimCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		442911331612769400E06BA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		442911351612769400E06BA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		442911371612769500E06BA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4429113B1612769500E06BA3 /* SubVimCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubVimCounter-Info.plist"; sourceTree = "<group>"; };
+		4429113D1612769500E06BA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4429113F1612769500E06BA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		442911411612769500E06BA3 /* SubVimCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SubVimCounter-Prefix.pch"; sourceTree = "<group>"; };
+		442911421612769500E06BA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		442911431612769500E06BA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		442911451612769500E06BA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		442911461612769500E06BA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		442911491612769500E06BA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		4429114C1612769500E06BA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		442911531612770300E06BA3 /* sublime_text_icon_2181.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sublime_text_icon_2181.png; sourceTree = "<group>"; };
+		442911541612770300E06BA3 /* r_Vim_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r_Vim_logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4429112C1612769400E06BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442911341612769400E06BA3 /* UIKit.framework in Frameworks */,
+				442911361612769500E06BA3 /* Foundation.framework in Frameworks */,
+				442911381612769500E06BA3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		442911241612769400E06BA3 = {
+			isa = PBXGroup;
+			children = (
+				442911391612769500E06BA3 /* SubVimCounter */,
+				442911321612769400E06BA3 /* Frameworks */,
+				442911301612769400E06BA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		442911301612769400E06BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4429112F1612769400E06BA3 /* SubVimCounter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		442911321612769400E06BA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				442911331612769400E06BA3 /* UIKit.framework */,
+				442911351612769400E06BA3 /* Foundation.framework */,
+				442911371612769500E06BA3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		442911391612769500E06BA3 /* SubVimCounter */ = {
+			isa = PBXGroup;
+			children = (
+				442911531612770300E06BA3 /* sublime_text_icon_2181.png */,
+				442911541612770300E06BA3 /* r_Vim_logo.png */,
+				442911421612769500E06BA3 /* AppDelegate.h */,
+				442911431612769500E06BA3 /* AppDelegate.m */,
+				442911451612769500E06BA3 /* ViewController.h */,
+				442911461612769500E06BA3 /* ViewController.m */,
+				442911481612769500E06BA3 /* ViewController_iPhone.xib */,
+				4429114B1612769500E06BA3 /* ViewController_iPad.xib */,
+				4429113A1612769500E06BA3 /* Supporting Files */,
+			);
+			path = SubVimCounter;
+			sourceTree = "<group>";
+		};
+		4429113A1612769500E06BA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4429113B1612769500E06BA3 /* SubVimCounter-Info.plist */,
+				4429113C1612769500E06BA3 /* InfoPlist.strings */,
+				4429113F1612769500E06BA3 /* main.m */,
+				442911411612769500E06BA3 /* SubVimCounter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4429112E1612769400E06BA3 /* SubVimCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 442911501612769500E06BA3 /* Build configuration list for PBXNativeTarget "SubVimCounter" */;
+			buildPhases = (
+				4429112B1612769400E06BA3 /* Sources */,
+				4429112C1612769400E06BA3 /* Frameworks */,
+				4429112D1612769400E06BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubVimCounter;
+			productName = SubVimCounter;
+			productReference = 4429112F1612769400E06BA3 /* SubVimCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		442911261612769400E06BA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 442911291612769400E06BA3 /* Build configuration list for PBXProject "SubVimCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 442911241612769400E06BA3;
+			productRefGroup = 442911301612769400E06BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4429112E1612769400E06BA3 /* SubVimCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4429112D1612769400E06BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4429113E1612769500E06BA3 /* InfoPlist.strings in Resources */,
+				4429114A1612769500E06BA3 /* ViewController_iPhone.xib in Resources */,
+				4429114D1612769500E06BA3 /* ViewController_iPad.xib in Resources */,
+				442911551612770300E06BA3 /* sublime_text_icon_2181.png in Resources */,
+				442911561612770300E06BA3 /* r_Vim_logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4429112B1612769400E06BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442911401612769500E06BA3 /* main.m in Sources */,
+				442911441612769500E06BA3 /* AppDelegate.m in Sources */,
+				442911471612769500E06BA3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4429113C1612769500E06BA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4429113D1612769500E06BA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		442911481612769500E06BA3 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				442911491612769500E06BA3 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		4429114B1612769500E06BA3 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4429114C1612769500E06BA3 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4429114E1612769500E06BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4429114F1612769500E06BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		442911511612769500E06BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SubVimCounter/SubVimCounter-Prefix.pch";
+				INFOPLIST_FILE = "SubVimCounter/SubVimCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		442911521612769500E06BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SubVimCounter/SubVimCounter-Prefix.pch";
+				INFOPLIST_FILE = "SubVimCounter/SubVimCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		442911291612769400E06BA3 /* Build configuration list for PBXProject "SubVimCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4429114E1612769500E06BA3 /* Debug */,
+				4429114F1612769500E06BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		442911501612769500E06BA3 /* Build configuration list for PBXNativeTarget "SubVimCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				442911511612769500E06BA3 /* Debug */,
+				442911521612769500E06BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 442911261612769400E06BA3 /* Project object */;
+}
